@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
+  publicPath:'/jekyll-vue-template/',
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
